@@ -35,7 +35,7 @@ func main() {
 			Assets:  assets,
 			Handler: http.FileServer(http.FS(models)),
 		},
-		BackgroundColour: &options.RGBA{R: 255, G: 255, B: 255, A: 1},
+		BackgroundColour: options.NewRGB(255, 255, 255),
 		OnStartup:        app.startup,
 		Bind: []interface{}{
 			app,
