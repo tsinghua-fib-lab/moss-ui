@@ -60,7 +60,4 @@ to this in your browser, and you can call your Go code from devtools.
 
 To build a redistributable, production mode package, use `wails build`.
 
-Command to build the project for all platforms:
-```bash
-wails build -platform windows/amd64 
-```
+We use the Github Action to automatically build and release the project. The release will be created when a new tag with `v{major}.{minor}.{patch}` format is pushed to the repository.

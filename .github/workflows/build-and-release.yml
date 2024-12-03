@@ -19,13 +19,13 @@ jobs:
       fail-fast: false
       matrix:
         build:
-          - name: 'moss-ui'
+          - name: 'moss-ui-linux-amd64'
             platform:  'linux/amd64'
             os: 'ubuntu-latest'
-          - name: 'moss-ui'
+          - name: 'moss-ui-windows-amd64'
             platform:  'windows/amd64'
             os: 'windows-latest'
-          - name: 'moss-ui'
+          - name: 'moss-ui-darwin-universal'
             platform:  'darwin/universal'
             os: 'macos-latest'
 
@@ -45,4 +45,3 @@ jobs:
           package: true
           go-version: '1.23'
           node-version: '20.x'
-          nsis: false
