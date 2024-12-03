@@ -1,0 +1,31 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.4.0",
+    "@fiblab/cityproto": "^1.25.0",
+    "@fiblab/moss-replay": "^1.0.1",
+    "@types/proj4": "^2.5.5",
+    "antd": "^5.20.3",
+    "deck.gl": "^8.9.34",
+    "proj4": "^2.12.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-map-gl": "^6.1.21"
+  },
+  "devDependencies": {
+    "@types/geojson": "^7946.0.14",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.1",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.7"
+  }
+}
