@@ -22,10 +22,10 @@ jobs:
           - name: 'moss-ui-linux-amd64'
             platform:  'linux/amd64'
             os: 'ubuntu-latest'
-          - name: 'moss-ui-windows-amd64'
+          - name: 'moss-ui-windows-amd64.exe'
             platform:  'windows/amd64'
             os: 'windows-latest'
-          - name: 'moss-ui-darwin-universal'
+          - name: 'moss-ui'
             platform:  'darwin/universal'
             os: 'macos-latest'
 
@@ -45,3 +45,4 @@ jobs:
           package: true
           go-version: '1.23'
           node-version: '20.x'
+          nsis: false
