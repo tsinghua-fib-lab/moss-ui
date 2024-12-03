@@ -1,5 +1,7 @@
 # MOSS-UI
 
+[![Wails build](https://github.com/tsinghua-fib-lab/moss-ui/actions/workflows/build-and-release.yml/badge.svg)](https://github.com/tsinghua-fib-lab/moss-ui/actions/workflows/build-and-release.yml)
+
 A simple UI to visualize the AVRO output of the MOSS project.
 
 The project is **unstable** now and faces data reading performance challenges to handle the AVRO output data without indexing that is usually provided by a database.
